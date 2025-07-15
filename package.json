@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "cron": "node index.js",
+    "cron": "nodemon index.js",
     "all": "concurrently \"npm run dev\" \"npm run cron\""
   },
   "author": "Faizan Ali",
